@@ -1,7 +1,7 @@
-from resta import resta
-from suma import suma
-from division import division
-from multiplicacion import multiplicacion
+from operaciones.resta import resta
+from operaciones.suma import suma
+from operaciones.division import division
+from operaciones.multiplicacion import multiplicacion
 
 def selector(nro1: float, nro2: float, operador) -> None:
     if operador == "+":
